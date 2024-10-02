@@ -82,8 +82,8 @@ BEGIN
         s1 => right,
         x0 => "00000000", 
         x1 => lmask_out, 
-        x2 => lrmask, 
-        x3 => rmask_out, 
+        x2 => rmask_out, 
+        x3 => lrmask, 
         y => disp_mux41
         );
 
@@ -99,7 +99,7 @@ BEGIN
     rMaskReg: eightbitregister
     PORT MAP (
         i_resetBar => '1', 
-        i_load => lmask_en, 
+        i_load => rmask_en, 
         i_clock => i_clock, 
         i_Value => rmask_in, 
         o_Value => rmask_out

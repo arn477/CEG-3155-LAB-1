@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Users\arnav\Desktop\CEG-3155-LAB-1\simulation\modelsim
 Edatapath
-Z1 w1727905412
+Z1 w1727906701
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z4 dC:\Users\arnav\Desktop\CEG-3155-LAB-1\simulation\modelsim
@@ -15,7 +15,7 @@ L4
 VS4Ro7jAj8I8nCLI6WXcET1
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1727905485.430000
+Z8 !s108 1727906929.909000
 Z9 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd|
 Z10 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd|
 Z11 o-93 -work work -O0
@@ -28,7 +28,7 @@ R3
 DEx4 work 8 datapath 0 22 S4Ro7jAj8I8nCLI6WXcET1
 l54
 L12
-V:7WRjAGR9nYjjEcem`4zz2
+V]8VR73zROAh?MVQE<J::c0
 R7
 31
 R8
@@ -36,7 +36,7 @@ R9
 R10
 R11
 R12
-!s100 2QknRbN7[UZQ@@gXhS4gE0
+!s100 3Uk5oXLj4Q9alS^j;?52f2
 !i10b 1
 Eeightbitmux21
 Z13 w1727867736
@@ -50,7 +50,7 @@ L4
 V0giFoiMKSzPZSYU1<74GF3
 R7
 31
-Z16 !s108 1727905485.509000
+Z16 !s108 1727906930.090000
 Z17 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd|
 Z18 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd|
 R11
@@ -85,7 +85,7 @@ L4
 Vk1Tm3aX<HjB0DgX<K@cF21
 R7
 31
-Z22 !s108 1727905485.588000
+Z22 !s108 1727906930.343000
 Z23 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd|
 Z24 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd|
 R11
@@ -120,7 +120,7 @@ L4
 V`g@FX<zlILb4O3>^gOc1D2
 R7
 31
-Z28 !s108 1727905485.668000
+Z28 !s108 1727906930.541000
 Z29 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd|
 Z30 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd|
 R11
@@ -155,7 +155,7 @@ L31
 VefK2f?3R7`bZO40Rc84Mm0
 R7
 31
-Z34 !s108 1727905485.758000
+Z34 !s108 1727906930.752000
 Z35 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd|
 Z36 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd|
 R11
@@ -190,7 +190,7 @@ L4
 V1CodOzcnWmcE13?d``V[40
 R7
 31
-Z40 !s108 1727905485.828000
+Z40 !s108 1727906930.880000
 Z41 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd|
 Z42 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd|
 R11
@@ -225,7 +225,7 @@ L4
 VjoSPCz9feUFaJ@ISF`YjB2
 R7
 31
-Z46 !s108 1727905485.896000
+Z46 !s108 1727906931.047000
 Z47 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd|
 Z48 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd|
 R11
@@ -262,7 +262,7 @@ VLAaQL`ZhKjP>LUkN[Hmo?2
 R7
 31
 !i10b 1
-Z52 !s108 1727905485.974000
+Z52 !s108 1727906931.199000
 Z53 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd|
 Z54 !s107 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd|
 R11
