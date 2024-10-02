@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Shift_Left is
+    Port (
+        data_in  : in  STD_LOGIC_VECTOR(7 downto 0); -- 8-bit input
+        data_out : out STD_LOGIC_VECTOR(7 downto 0)  -- 8-bit output
+    );
+end Shift_Left;
+
+architecture structural of Shift_Left is
+begin
+    -- Shift left by 1 by taking the 6 lsbs of the input and concatenating a 0
+    data_out <= data_in(6 downto 0) & '0';
+end structural;
