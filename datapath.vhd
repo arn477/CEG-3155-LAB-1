@@ -15,7 +15,7 @@ ARCHITECTURE rtl OF datapath IS
     SIGNAL disp_mux41, disp: STD_LOGIC_VECTOR(7 downto 0);
     SIGNAL lrmask : STD_LOGIC_VECTOR(7 downto 0);
     SIGNAL disp_mux_select: STD_LOGIC_VECTOR(1 downto 0);
-    SIGNAL lmask_en, rmask_en, display_en: STD_LOGIC;
+    SIGNAL lmask_en, rmask_en, display_en, display_reset: STD_LOGIC;
 
     COMPONENT eightbitmux21
     PORT ( s: IN STD_LOGIC ;
@@ -107,7 +107,7 @@ BEGIN
 
     displayReg: eightbitregister
     PORT MAP (
-        i_resetBar => '1', 
+        i_resetBar => display_reset, 
         i_load => display_en, 
         i_clock => i_clock, 
         i_Value => disp, 
@@ -128,6 +128,7 @@ BEGIN
 
     lrmask <= lmask_out or rmask_out;
     
+    display_reset <= not greset;
     lmask_en <= left or greset;
     rmask_en <= right or greset;
     display_en <= ldDisplay or greset;
