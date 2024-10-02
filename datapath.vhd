@@ -89,7 +89,7 @@ BEGIN
 
     lMaskReg: eightbitregister
     PORT MAP (
-        i_resetBar => greset, 
+        i_resetBar => '1', 
         i_load => lmask_en, 
         i_clock => i_clock, 
         i_Value => lmask_in, 
@@ -98,7 +98,7 @@ BEGIN
 
     rMaskReg: eightbitregister
     PORT MAP (
-        i_resetBar => greset, 
+        i_resetBar => '1', 
         i_load => lmask_en, 
         i_clock => i_clock, 
         i_Value => rmask_in, 
@@ -107,7 +107,7 @@ BEGIN
 
     displayReg: eightbitregister
     PORT MAP (
-        i_resetBar => greset, 
+        i_resetBar => '1', 
         i_load => display_en, 
         i_clock => i_clock, 
         i_Value => disp, 
@@ -120,7 +120,7 @@ BEGIN
         data_out => lmask_shifted
         );
 
-    rmaskShift: shiftleft1
+    rmaskShift: shiftright1
     PORT MAP (
         data_in => rmask_out, 
         data_out => rmask_shifted

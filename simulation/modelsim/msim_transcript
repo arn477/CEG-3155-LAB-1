@@ -10,14 +10,56 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/arnav/Desktop/Dig Sys Lab 1/eightbitregister.vhd}
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity eightBitRegister
 # -- Compiling architecture rtl of eightBitRegister
-# vcom -93 -work work {C:/Users/arnav/Desktop/Dig Sys Lab 1/enardFF_2.vhd}
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -25,3 +67,416 @@
 # -- Compiling entity enARdFF_2
 # -- Compiling architecture rtl of enARdFF_2
 # 
+# Load canceled
+vsim +altera -do Lab1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.datapath
+# vsim +altera -do Lab1_run_msim_rtl_vhdl.do -l msim_transcript -gui work.datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.datapath(rtl)
+# Loading work.eightbitmux21(structural)
+# Loading work.mux21(structural)
+# Loading work.eightbitmux41(structural)
+# Loading work.eightbitregister(rtl)
+# Loading work.enardff_2(rtl)
+# Loading work.shiftleft1(structural)
+# Loading work.shiftright1(structural)
+# do Lab1_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightBitRegister
+# -- Compiling architecture rtl of eightBitRegister
+# vcom -93 -work work {C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enARdFF_2
+# -- Compiling architecture rtl of enARdFF_2
+# 
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightBitRegister
+# -- Compiling architecture rtl of eightBitRegister
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enARdFF_2
+# -- Compiling architecture rtl of enARdFF_2
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightBitRegister
+# -- Compiling architecture rtl of eightBitRegister
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enARdFF_2
+# -- Compiling architecture rtl of enARdFF_2
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightBitRegister
+# -- Compiling architecture rtl of eightBitRegister
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enARdFF_2
+# -- Compiling architecture rtl of enARdFF_2
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/datapath.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture rtl of datapath
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux21
+# -- Compiling architecture structural of eightbitmux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitmux41.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightbitmux41
+# -- Compiling architecture structural of eightbitmux41
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/eightbitregister.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity eightBitRegister
+# -- Compiling architecture rtl of eightBitRegister
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/enardFF_2.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enARdFF_2
+# -- Compiling architecture rtl of enARdFF_2
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/mux21.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux21
+# -- Compiling architecture structural of mux21
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftleft1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftleft1
+# -- Compiling architecture structural of shiftleft1
+vcom -93 -work work -O0 C:/Users/arnav/Desktop/CEG-3155-LAB-1/shiftright1.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shiftright1
+# -- Compiling architecture structural of shiftright1
+add wave -position insertpoint  \
+sim:/datapath/greset
+add wave -position insertpoint  \
+sim:/datapath/i_clock \
+sim:/datapath/ldDisplay \
+sim:/datapath/left \
+sim:/datapath/right \
+sim:/datapath/displayOut
+force -freeze sim:/datapath/greset 1 0
+force -freeze sim:/datapath/i_clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/datapath/ldDisplay 1 0
+force -freeze sim:/datapath/left 1 0
+force -freeze sim:/datapath/right 0 0
+run
+run
+run
+run
+force -freeze sim:/datapath/greset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/datapath/rmask_out
+add wave -position insertpoint  \
+sim:/datapath/lmask_out
+restart -f
+# Loading work.datapath(rtl)
+# Loading work.eightbitmux21(structural)
+# Loading work.mux21(structural)
+# Loading work.eightbitmux41(structural)
+# Loading work.eightbitregister(rtl)
+# Loading work.enardff_2(rtl)
+# Loading work.shiftleft1(structural)
+# Loading work.shiftright1(structural)
+force -freeze sim:/datapath/greset 1 0
+force -freeze sim:/datapath/left 1 0
+force -freeze sim:/datapath/i_clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/datapath/right 0 0
+force -freeze sim:/datapath/ldDisplay 1 0
+run
+run
+run
+add wave -position insertpoint  \
+sim:/datapath/lmask_in \
+sim:/datapath/lmask_shifted \
+sim:/datapath/rmask_in \
+sim:/datapath/rmask_shifted
+run
+run
+run
+run
+force -freeze sim:/datapath/greset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/datapath/greset 1 0
+run
+run
+force -freeze sim:/datapath/greset 0 0
+run
+run
+run
+run
+force -freeze sim:/datapath/right 1 0
+force -freeze sim:/datapath/left 0 0
+run
+run
+run
+run
+run
+force -freeze sim:/datapath/left 0 0
+force -freeze sim:/datapath/right 1 0
+run
+run
+run
+run
+run
+run
+run
+restart -f
+force -freeze sim:/datapath/greset 1 0
+force -freeze sim:/datapath/ldDisplay 1 0
+force -freeze sim:/datapath/left U 0
+force -freeze sim:/datapath/right 0 0
+force -freeze sim:/datapath/left 1 0
+force -freeze sim:/datapath/i_clock 1 0, 0 {50 ps} -r 100
+run
+run
+force -freeze sim:/datapath/greset 0 0
+run
+run
+force -freeze sim:/datapath/left 0 0
+force -freeze sim:/datapath/right 1 0
+run
+run
+run
+restart -f
